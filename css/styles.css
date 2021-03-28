@@ -1,22 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
 header {
     text-align: center;
     font-size: 60pt;
-    color: gold;
-    text-shadow: 4px 4px rebeccapurple;
-    background-color: #101889;
-    box-shadow: 10px 10px #7f7be7;
+    font-family: 'Kiwi Maru', serif;
+    color: #101889;
+    background-color: rgb(194, 194, 194);
     height: 100px;
-    opacity: 70%;
+    opacity: 85%;
     border: black;
     border-width: 5px;
     border-style: solid;
-    
 }
     
 body{
     size: 100%;
-    background-image: url("/images/cafe1.jpeg");
+    background-image: url("/Final-Project/images/cafe1.jpeg");
     background-repeat: no-repeat;
     background-color: lightblue;
     background-size: 100%;
@@ -30,6 +29,10 @@ img{
 }
 nav {
     float: center;
+    background-color: rgb(194, 194, 194);
+    font: black;
+    font-family: 'Kiwi Maru', serif;
+    opacity: 85%;
     text-align: center;
     font-style: oblique;
     font-size: 30pt;
@@ -38,20 +41,25 @@ nav {
     
     
 }
+nav :hover{
+    color: snow;
+}
 a.visited{
     color: fuchsia;
 }
 
-#box2{
-    background-color: blueviolet;
+/* #box2{ 
+    background-color: rgb(194, 194, 194);
+    opacity: 85%;
     height: 100px;
     width: 100%;
-    box-shadow: 10px 10px aqua;
-}
+      */
+
 section {
     float: left;
-    background-color: lightcoral;
-    opacity: 70%;
+    background-color: rgb(194, 194, 194);
+    font-family: 'Kiwi Maru', serif;
+    opacity: 85%;
     height: 200px;
     width: 48%; 
     border: black;
@@ -63,25 +71,25 @@ section {
 
 article{
     float: left;
-    background-color: lightseagreen;
+    background-color: rgb(194, 194, 194);
+    font-family: 'Kiwi Maru', serif;
     height: 500px;
     width: 48%;
-    opacity: 70%;
+    opacity: 85%;
     margin-top: 1px;
     margin-bottom: 1px;
     text-overflow: clip;
     border: black;
     border-style: solid;
-    border-width: .5%;
-
-
+    border-width: .5%; 
 }
 aside{
     float: right;
-    background-color: magenta;
+    background-color: rgb(194, 194, 194);
+    font-family: 'Kiwi Maru', serif;
     height: 400px;
     width: 51.06%;
-    opacity: 70%;
+    opacity: 85%;
     border: black;
     border-style: solid;
     border-width: .4%;
@@ -90,7 +98,8 @@ aside{
 
 footer{
     float: right;
-    background-color: pink;
+    background-color: rgb(194, 194, 194);
+    font-family: 'Kiwi Maru', serif;
     height: 100px;
     width: 100%;
     border: black;
@@ -101,10 +110,9 @@ footer{
 }
 
 #box1{
-    background-color: purple;
+    background-color: rgb(194, 194, 194);
     height: 100px;
     width: 100px;
-    box-shadow: 4px 4px rgb(255, 143, 204);
 }
 
 iframe{
