@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 #about1{
     background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
+    border-radius: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    width:600px;
 }
 
 header {
@@ -12,6 +17,7 @@ header {
     opacity: 85%;
     border: black;
     border-width: 5px;
+    border-radius: 500px;
     border-style: solid;
 }
 
@@ -24,6 +30,9 @@ nav {
     text-align: center;
     font-style: oblique;
     font-size: 30pt;
+    border: black;
+    border-width: 5px;
+    border-radius: 50px;
     position: sticky;
     top: 0;
     
@@ -43,4 +52,48 @@ body{
     background-color: lightblue;
     background-size: 100%;
     
+}
+
+#aboutme1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20pt;
+}
+
+footer{
+    float: right;
+    background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
+    font-family: 'Kiwi Maru', serif;
+    opacity: 85%;
+    height: 150px;
+    width: 100%;
+    border: black;
+    border-top: 2px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    text-align: center;
+}
+
+aside{
+    background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
+    float: right;
+    height: 470px;
+    width: 300px;
+    border: black;
+    border-style: solid;
+    border-radius: 25px;
+    padding-right: 500px;
+    margin-right: 900px;
+    margin-top: 30px;
+}
+
+#gallery{
+    float: right;
+}
+
+article{
+    background-color: blueviolet;
+    float: right;
+    font-family: 'Shadows Into Light', cursive;
+
 }
