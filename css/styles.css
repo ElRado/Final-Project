@@ -5,7 +5,7 @@ header {
     font-size: 60pt;
     font-family: 'Kiwi Maru', serif;
     color: #101889;
-    background-color: rgb(194, 194, 194);
+    background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
     height: 100px;
     opacity: 85%;
     border: black;
@@ -29,7 +29,7 @@ img{
 }
 nav {
     float: center;
-    background-color: rgb(194, 194, 194);
+    background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
     font: black;
     font-family: 'Kiwi Maru', serif;
     opacity: 85%;
@@ -57,8 +57,9 @@ a.visited{
 
 section {
     float: left;
-    background-color: rgb(194, 194, 194);
+    background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
     font-family: 'Kiwi Maru', serif;
+    font-size: 12pt;
     opacity: 85%;
     height: 200px;
     width: 48%; 
@@ -72,8 +73,9 @@ section {
 
 article{
     float: left;
-    background-color: rgb(194, 194, 194);
+    background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
     font-family: 'Kiwi Maru', serif;
+    font-size: 17pt;
     height: 650px;
     width: 48%;
     opacity: 85%;
@@ -86,7 +88,7 @@ article{
 }
 aside{
     float: right;
-    background-color: rgb(194, 194, 194);
+    background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
     font-family: 'Kiwi Maru', serif;
     font-size: 20pt;
     height: 850px;
@@ -104,9 +106,10 @@ aside{
 
 footer{
     float: right;
-    background-color: rgb(194, 194, 194);
+    background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
     font-family: 'Kiwi Maru', serif;
-    height: 100px;
+    opacity: 85%;
+    height: 150px;
     width: 100%;
     border: black;
     border-top: 2px;
@@ -116,7 +119,7 @@ footer{
 }
 
 #box1{
-    background-color: rgb(194, 194, 194);
+    background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
     height: 100px;
     width: 100px;
 }
@@ -126,13 +129,12 @@ iframe{
     border-width: 4px 4px;
 }
 
-.music{
-
-    background-color: #7f7be7;
-    opacity: 70%;
-    height: 400px;
-    width: 600px;
-    padding: 10px 10px;
+#music{
+    float: right;
+    opacity: 100%;
+    padding-right: 250px;
+    
+    
 }
 
 #cover{
@@ -151,13 +153,21 @@ iframe{
     overflow: visible;
 }
 
+#cover3{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    overflow: visible;
+}
+
 #title2{
-    text-align: left;
+    text-align: right;
     overflow: visible;
     padding: 20px;
 }
 
-#p3{
+.listen{
+    text-align: right;
     padding-top: 1px;
     padding-left: 20px;
 }
@@ -165,4 +175,22 @@ iframe{
 #p4{
 padding-left: 20px;
 float:right;
+}
+
+#discord{
+    width: 100px;
+    height: 200px;
+    float: right;
+    padding-right: 250px;
+    padding-bottom: 1000px;
+    padding-top: 60px;
+    clear: none;
+
+}
+
+
+#listen{
+    float: right;
+    padding-right: 30px;
+    padding-bottom: 50px;
 }

@@ -1,0 +1,46 @@
+#about1{
+    background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
+}
+
+header {
+    text-align: center;
+    font-size: 60pt;
+    font-family: 'Kiwi Maru', serif;
+    color: #101889;
+    background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
+    height: 100px;
+    opacity: 85%;
+    border: black;
+    border-width: 5px;
+    border-style: solid;
+}
+
+nav {
+    float: center;
+    background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
+    font: black;
+    font-family: 'Kiwi Maru', serif;
+    opacity: 85%;
+    text-align: center;
+    font-style: oblique;
+    font-size: 30pt;
+    position: sticky;
+    top: 0;
+    
+    
+}
+nav :hover{
+    color: snow;
+}
+a.visited{
+    color: fuchsia;
+}
+
+body{
+    size: 100%;
+    background-image: url("/Final-Project/images/cafe1.jpeg");
+    background-repeat: no-repeat;
+    background-color: lightblue;
+    background-size: 100%;
+    
+}
