@@ -1,0 +1,98 @@
+header {
+    text-align: center;
+    font-size: 60pt;
+    font-family: 'Kiwi Maru', serif;
+    color: #101889;
+    background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
+    height: 100px;
+    opacity: 85%;
+    border: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50px;
+}
+    
+body{
+    size: 100%;
+    background-image: url("/Final-Project/images/cafe1.jpeg");
+    background-repeat: no-repeat;
+    background-color: lightblue;
+    background-size: 100%;
+    
+}
+
+img{
+    height: 11px;
+    width: 80px;
+    float: left;
+}
+nav {
+    float: center;
+    background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
+    font: black;
+    font-family: 'Kiwi Maru', serif;
+    opacity: 85%;
+    text-align: center;
+    font-style: oblique;
+    font-size: 30pt;
+    border-radius: 50px;
+    position: sticky;
+    top: 0;
+    
+    
+}
+nav :hover{
+    color: snow;
+}
+a.visited{
+    color: fuchsia;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #101889;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #7f7be7;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
+    opacity: 95%;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
