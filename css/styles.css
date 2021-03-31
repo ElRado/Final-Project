@@ -17,7 +17,7 @@ header {
 body{
     size: 100%;
     background-image: url("/Final-Project/images/cafe1.jpeg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-color: lightblue;
     background-size: 100%;
     
@@ -50,17 +50,11 @@ a.visited{
     color: fuchsia;
 }
 
-/* #box2{ 
-    background-color: rgb(194, 194, 194);
-    opacity: 85%;
-    height: 100px;
-    width: 100%;
-      */
-
 section {
     float: left;
     background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
     font-family: 'Kiwi Maru', serif;
+    text-align: left;
     font-size: 12pt;
     opacity: 85%;
     height: 200px;
@@ -121,6 +115,7 @@ footer{
     border-width: 2px;
     border-style: solid;
     border-radius: 20px;
+    padding-top: 20px;
     text-align: center;
 }
 

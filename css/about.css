@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
 #about1{
     background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
     border-radius: 20px;
@@ -21,6 +21,7 @@ header {
     border-radius: 500px;
     border-style: solid;
 }
+
 
 nav {
     float: center;
