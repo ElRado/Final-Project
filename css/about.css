@@ -141,3 +141,28 @@ article{
       padding-right: 75px;
 
   }
+
+  #denise{
+      height: 450px;
+      width: 300px;
+      padding-left: 25px;
+      margin-right: 40px;
+
+  }
+  
+  #sebby{
+    height: 450px;
+    width: 300px;
+  }
+
+  #me{
+    height: 400px;
+    width: 300px;
+    padding-left: 25px;
+    margin-right: 40px;
+    float: right;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    margin-top: 25PXGI;
+    margin-bottom: 50px;
+  }
