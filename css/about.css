@@ -4,7 +4,8 @@
     background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
     border-radius: 20px;
     font-family: 'Shadows Into Light', cursive;
-    width:600px;
+    width:700px;
+    height: 100%;
 }
 
 header {
@@ -78,22 +79,65 @@ aside{
     background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
     float: right;
     height: 470px;
-    width: 300px;
+    width: 250px;
     border: black;
     border-style: solid;
     border-radius: 25px;
     padding-right: 500px;
-    margin-right: 900px;
+    margin-left: 200px;
     margin-top: 30px;
 }
 
-#gallery{
+div.gallery{
     float: right;
+    height: 300px;
+    width: 400px;
+    background-color: red;
+    margin-left: 1000px;
 }
 
 article{
-    background-color: blueviolet;
+    background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
     float: right;
     font-family: 'Shadows Into Light', cursive;
+    padding-right: 100px;
+    padding-left: 25px;
+    margin-right: 100px;
+    margin-top: 20px;
+    height: 450px;
+    width: 600px;
+    border: black;
+    border-style: solid;
+    border-radius: 20px;
+
 
 }
+.column {
+    float: left;
+    background-image: linear-gradient(to bottom right,#ffffff, #7f7be7);
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 16pt;
+    width: 32%;
+    padding: 10px;
+    height: 700px;
+    border: black;
+    border-style: solid;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  
+  #grouplogo{
+      float: right;
+      padding-top: 70px;
+      padding-right: 75px;
+
+  }
